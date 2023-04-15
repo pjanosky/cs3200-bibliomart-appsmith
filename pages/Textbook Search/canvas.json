@@ -126,8 +126,9 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "textbook_search_button",
-                      "onClick": "{{search_for_textbook.run(() => {}, () => showAlert('Failed to get textbooks','error'))}}",
+                      "onClick": "{{search_for_textbook.run(() => {}, () => showAlert('Failed to find textbooks','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -426,11 +427,7 @@
                 "YearPublished",
                 "Authors"
               ],
-              "dynamicPropertyPathList": [
-                {
-                  "key": "onRowSelected"
-                }
-              ],
+              "dynamicPropertyPathList": [],
               "displayName": "Table",
               "bottomRow": 77,
               "columnWidthMap": {
@@ -598,7 +595,7 @@
                   "cellBackground": ""
                 }
               },
-              "onRowSelected": "{{navigateTo('Listing Details',{isbn: textbook_search_results.selectedRow.ISBN},)}}",
+              "onRowSelected": "{{get_listing_id.run(() => navigateTo('Listing Details',{isbn: get_listing_id.data[0].ListingId}, 'SAME_WINDOW'), () => showAlert('This textbook is not available to buy or rent','error'))}}",
               "key": "xitemr013x",
               "canFreezeColumn": false,
               "isDeprecated": false,
