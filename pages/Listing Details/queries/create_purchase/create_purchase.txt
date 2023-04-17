@@ -1,0 +1,9 @@
+{
+  "user_id": {{Purchase_User.selectedOptionValue}},
+  "listing_id": {{appsmith.URL.queryParams.listing_id}},
+  "street": {{Purchase_Street.inputText}},
+  "city": {{Purchase_city.inputText}},
+  "state": {{Purchase_State.inputText}},
+  "zip": {{Purchase_zip.inputText}},
+  "quantity": {{Purchase_Quantity.inputText}} 
+}
