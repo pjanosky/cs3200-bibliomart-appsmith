@@ -22,6 +22,9 @@
   "unreadCommentThreads": 0,
   "color": "#F5D1D1",
   "icon": "arrow-up",
+  "unpublishedAppLayout": {
+    "type": "TABLET"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
