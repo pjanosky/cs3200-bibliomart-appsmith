@@ -71,7 +71,7 @@
               "shouldTruncate": false,
               "borderWidth": "",
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "ISBT: {{appsmith.URL.queryParams.isbn}}",
+              "text": "ISBN: {{appsmith.URL.queryParams.isbn}}",
               "key": "gr1kgl9jch",
               "isDeprecated": false,
               "rightColumn": 19,
@@ -268,7 +268,7 @@
               "originalTopRow": 9,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 13,
+              "originalBottomRow": 14,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -454,7 +454,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 28,
+              "topRow": 21,
               "isSortable": false,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -480,7 +480,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 61,
+              "leftColumn": 21,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "showInlineEditingOptionDropdown": true,
@@ -528,7 +528,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 42,
+              "bottomRow": 35,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -596,7 +596,7 @@
               "key": "mqkq1a80pg",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 48,
               "textSize": "0.875rem",
               "widgetId": "mg8hb2lg9c",
               "minWidth": 450,
@@ -1294,7 +1294,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button5",
-                      "onClick": "{{delete_purchase.run(() => {get_purchase.run(); showAlert('Successfully deleted pruchase','info');}, () => showAlert('Failed to delete purchase'))}}",
+                      "onClick": "{{delete_purchase.run(() => {get_purchase.run(); showAlert('Successfully deleted purchase','info');}, () => showAlert('Failed to delete purchase'))}}",
                       "buttonColor": "#db2777",
                       "dynamicPropertyPathList": [
                         {

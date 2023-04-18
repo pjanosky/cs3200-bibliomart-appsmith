@@ -26,7 +26,7 @@
     "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "TABLET"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
