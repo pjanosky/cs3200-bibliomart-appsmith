@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/a/UserReviews/{{User_Reviews.selectedOptionValue}}/{{User_Reviews.selectedRow.ReviewId}}"
+        "url": "web:4000/a/UserReviews/{{User_Reviews.selectedRow.UserId}}/{{User_Reviews.selectedRow.ReviewId}}"
       },
       "invalids": [],
       "messages": [],
@@ -52,8 +52,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "User_Reviews.selectedOptionValue",
-      "User_Reviews.selectedRow.ReviewId"
+      "User_Reviews.selectedRow.ReviewId",
+      "User_Reviews.selectedRow.UserId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

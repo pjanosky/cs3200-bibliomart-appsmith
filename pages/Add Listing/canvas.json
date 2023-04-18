@@ -1342,7 +1342,7 @@
                       "labelPosition": "Top",
                       "key": "hityc5dhcg",
                       "labelTextSize": "0.875rem",
-                      "onTextChanged": "{{get_listingID.run()}}",
+                      "onTextChanged": "",
                       "isDeprecated": false,
                       "rightColumn": 32,
                       "widgetId": "a6x4uu5v7s",

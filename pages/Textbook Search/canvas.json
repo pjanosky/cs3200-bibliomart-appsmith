@@ -44,6 +44,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
@@ -321,7 +322,7 @@
               "borderWidth": "1",
               "positioning": "fixed",
               "key": "8q1fd3t8ey",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#eff6ff",
               "isDeprecated": false,
               "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT",

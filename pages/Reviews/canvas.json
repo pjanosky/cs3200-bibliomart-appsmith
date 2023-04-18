@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1470,
+          "bottomRow": 1520,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -35,15 +35,16 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 100,
-              "bottomRow": 147,
+              "topRow": 105,
+              "bottomRow": 152,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
-              "leftColumn": 2,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -123,13 +124,9 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Submit",
-                      "onClick": "{{create_UserRev.run(() => navigateTo('Reviews',{update_form.data}, 'SAME_WINDOW'), () => {})}}",
+                      "onClick": "{{create_UserRev.run(() => Get_UsersRev.run(), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "isVisible"
-                        }
-                      ],
+                      "dynamicPropertyPathList": [],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -153,9 +150,6 @@
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "isVisible"
                         }
                       ],
                       "text": "Submit",
@@ -166,7 +160,7 @@
                       "isDefaultClickDisabled": true,
                       "widgetId": "w76rpervma",
                       "minWidth": 120,
-                      "isVisible": "{{!Get_UsersRev.data.ReviewId}}",
+                      "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
                       "parentId": "wqgk2fz0jj",
@@ -174,7 +168,7 @@
                       "isLoading": false,
                       "responsiveBehavior": "hug",
                       "originalTopRow": 41,
-                      "disabledWhenInvalid": true,
+                      "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 45,
                       "buttonVariant": "PRIMARY",
@@ -206,7 +200,7 @@
                           "key": "onOptionChange"
                         }
                       ],
-                      "leftColumn": 2,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -226,7 +220,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 22,
+                      "rightColumn": 21,
                       "dynamicHeight": "FIXED",
                       "widgetId": "jwz0el8jaa",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -265,7 +259,7 @@
                       "parentColumnSpace": 11.46484375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 2,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -371,9 +365,9 @@
               "borderWidth": "1",
               "positioning": "fixed",
               "key": "5mstho8est",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#fefce8",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "vaipkasgap",
               "minWidth": 450,
@@ -382,10 +376,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 100,
+              "originalTopRow": 105,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 147,
+              "originalBottomRow": 152,
               "minDynamicHeight": 10
             },
             {
@@ -399,13 +393,14 @@
                 "group"
               ],
               "topRow": 3,
-              "bottomRow": 99,
+              "bottomRow": 104,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -420,7 +415,7 @@
                   "widgetName": "Canvas1Copy1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 960,
+                  "bottomRow": 1010,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -439,8 +434,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 1,
-                      "bottomRow": 5,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -461,7 +456,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Update a Review",
+                      "text": "Search for a user's review",
                       "key": "gr1kgl9jch",
                       "isDeprecated": false,
                       "rightColumn": 25,
@@ -487,12 +482,12 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "topRow": 71,
+                      "topRow": 74,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
                       "animateLoading": true,
                       "resetOnSubmit": true,
-                      "leftColumn": 2,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -525,7 +520,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 90,
+                      "bottomRow": 93,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -535,7 +530,7 @@
                       "key": "dv7qsab5kl",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 63,
+                      "rightColumn": 62,
                       "widgetId": "ijghomhjwm",
                       "minWidth": 450,
                       "label": "Comment",
@@ -559,8 +554,8 @@
                       "searchTags": [
                         "range"
                       ],
-                      "topRow": 63,
-                      "bottomRow": 71,
+                      "topRow": 64,
+                      "bottomRow": 72,
                       "parentRowSpace": 10,
                       "labelWidth": 8,
                       "type": "NUMBER_SLIDER_WIDGET",
@@ -569,7 +564,7 @@
                       "min": "1",
                       "parentColumnSpace": 11.46484375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -584,7 +579,7 @@
                       "key": "1pt8w34m10",
                       "labelTextSize": "0.875rem",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 38,
                       "max": "10",
                       "widgetId": "lb42b3xmjj",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -606,8 +601,8 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Delete",
-                      "onClick": "{{Delete_UserRev.run(() => resetWidget(\"User_Reviews\",true), () => showAlert('Wrong'))}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "onClick": "{{Delete_UserRev.run(() => Get_UsersRev.run(), () => showAlert('Failed to delete review'))}}",
+                      "buttonColor": "#be185d",
                       "dynamicPropertyPathList": [
                         {
                           "key": "isVisible"
@@ -619,8 +614,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 90,
-                      "bottomRow": 94,
+                      "topRow": 95,
+                      "bottomRow": 99,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -631,11 +626,8 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 2,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -644,7 +636,7 @@
                       "isDisabled": false,
                       "key": "0prxnpr8xc",
                       "isDeprecated": false,
-                      "rightColumn": 18,
+                      "rightColumn": 17,
                       "isDefaultClickDisabled": true,
                       "widgetId": "qy6qbnywr3",
                       "minWidth": 120,
@@ -666,7 +658,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Update",
-                      "onClick": "{{update_UserRev.run(() => Get_UsersRev.run(), () => {})}}",
+                      "onClick": "{{update_UserRev.run(() => Get_UsersRev.run(), () => showAlert('Failed to update user review','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "dynamicPropertyPathList": [],
                       "displayName": "Button",
@@ -675,8 +667,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 90,
-                      "bottomRow": 94,
+                      "topRow": 95,
+                      "bottomRow": 99,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -687,7 +679,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 23,
+                      "leftColumn": 46,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -700,7 +692,7 @@
                       "isDisabled": false,
                       "key": "0prxnpr8xc",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "l0cn923f2n",
                       "minWidth": 120,
@@ -729,8 +721,8 @@
                       "searchTags": [
                         "dropdown"
                       ],
-                      "topRow": 5,
-                      "bottomRow": 11,
+                      "topRow": 4,
+                      "bottomRow": 10,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "SELECT_WIDGET",
@@ -788,7 +780,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 13,
+                      "topRow": 10,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -900,7 +892,7 @@
                         }
                       ],
                       "displayName": "Table",
-                      "bottomRow": 62,
+                      "bottomRow": 59,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 132,
@@ -1121,6 +1113,60 @@
                       "originalTopRow": 13,
                       "isVisiblePagination": true,
                       "verticalAlignment": "CENTER"
+                    },
+                    {
+                      "widgetName": "update_review_label",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 59,
+                      "bottomRow": 63,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 11.857421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Update review",
+                      "key": "pnjyy9cmqy",
+                      "isDeprecated": false,
+                      "rightColumn": 17,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "j9h57tr1n0",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "mzu3selav2",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "dj5utngm1y",
@@ -1142,7 +1188,7 @@
               "borderWidth": "1",
               "positioning": "fixed",
               "key": "5mstho8est",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#e0e7ff",
               "isDeprecated": false,
               "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT",
@@ -1156,23 +1202,13 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 99,
+              "originalBottomRow": 104,
               "minDynamicHeight": 10
             }
           ]
         },
         "layoutOnLoadActions": [
           [
-            {
-              "id": "Reviews_Get_UsersRev",
-              "name": "Get_UsersRev",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "View_UserRev.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Reviews_Users_",
               "name": "Users_",
