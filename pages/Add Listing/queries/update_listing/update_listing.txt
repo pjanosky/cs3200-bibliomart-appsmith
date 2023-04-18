@@ -1,0 +1,6 @@
+{
+  "Quantity": {{update_listing_quantity.inputText}},
+  "Price": {{update_listing_price.inputText}},
+  "EmployeeId": {{update_listing_employee.selectedOptionValue}},
+  "ShipperName": {{update_listing_shipper.selectedOptionValue}},
+}

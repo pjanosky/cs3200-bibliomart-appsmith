@@ -23,6 +23,9 @@
   "color": "#F5D1D1",
   "icon": "arrow-up",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "TABLET"
   },
   "unpublishedCustomJSLibs": [],

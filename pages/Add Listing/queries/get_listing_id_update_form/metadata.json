@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "get_listing_id_update_form",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/a/{{}}"
+        "url": "web:4000/a/listings_id/{{update_listing_isbn.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Reviews",
+    "pageId": "Add Listing",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,14 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      ""
+      "update_listing_isbn.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Reviews_Api1",
+  "id": "Add Listing_get_listing_id_update_form",
   "deleted": false,
-  "gitSyncId": "643750b6f7ec6e5f2775a826_643c8fef1bcbff7995e921e8"
+  "gitSyncId": "643c9022571c2941d67b7c2e_643ef1c5571c2941d67b7cab"
 }
