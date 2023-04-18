@@ -128,10 +128,10 @@
                       "buttonColor": "#fde047",
                       "dynamicPropertyPathList": [
                         {
-                          "key": "onClick"
+                          "key": "isVisible"
                         },
                         {
-                          "key": "isVisible"
+                          "key": "onClick"
                         }
                       ],
                       "displayName": "Button",
