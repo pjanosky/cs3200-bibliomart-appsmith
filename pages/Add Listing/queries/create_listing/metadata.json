@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"Quantity\": {{add_listing_quantity_input.inputText}},\n  \"Price\": {{add_listing_price_input.inputText}},\n  \"EmployeeId\": {{add_listing_employee_dropdown.selectedOptionValue}},\n\t\"ShipperName\": {{add_listing_shipper_drop_down.selectedOptionValue}},\n  \"ISBN\": {{add_listing_isbn_text.inputText}}\n}",
+      "body": "{\n  \"Quantity\": {{create_quantity.inputText}},\n  \"Price\": {{create_price.inputText}},\n  \"EmployeeId\": {{create_employee.selectedOptionValue}},\n\t\"ShipperName\": {{create_shipper.selectedOptionValue}},\n  \"ISBN\": {{create_isbn.inputText}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,11 +52,11 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "add_listing_employee_dropdown.selectedOptionValue",
-      "add_listing_isbn_text.inputText",
-      "add_listing_price_input.inputText",
-      "add_listing_quantity_input.inputText",
-      "add_listing_shipper_drop_down.selectedOptionValue"
+      "create_employee.selectedOptionValue",
+      "create_isbn.inputText",
+      "create_price.inputText",
+      "create_quantity.inputText",
+      "create_shipper.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

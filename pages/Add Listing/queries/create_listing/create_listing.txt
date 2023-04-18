@@ -1,7 +1,7 @@
 {
-  "Quantity": {{add_listing_quantity_input.inputText}},
-  "Price": {{add_listing_price_input.inputText}},
-  "EmployeeId": {{add_listing_employee_dropdown.selectedOptionValue}},
-	"ShipperName": {{add_listing_shipper_drop_down.selectedOptionValue}},
-  "ISBN": {{add_listing_isbn_text.inputText}}
+  "Quantity": {{create_quantity.inputText}},
+  "Price": {{create_price.inputText}},
+  "EmployeeId": {{create_employee.selectedOptionValue}},
+	"ShipperName": {{create_shipper.selectedOptionValue}},
+  "ISBN": {{create_isbn.inputText}}
 }
