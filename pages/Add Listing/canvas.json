@@ -680,7 +680,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button1Copy",
                       "onClick": "{{update_listing.run(() => showAlert('Successfully updated listing'), () => showAlert('Failed to update listing'))}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#86efac",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -699,9 +699,6 @@
                       ],
                       "leftColumn": 47,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -733,7 +730,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button2Copy",
                       "onClick": "{{removeValue()}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#166534",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -752,9 +749,6 @@
                       ],
                       "leftColumn": 31,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -1186,8 +1180,8 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button5",
-                      "onClick": "{{delete_listing.run()}}",
-                      "buttonColor": "#db2777",
+                      "onClick": "{{delete_listing.run()}}/",
+                      "buttonColor": "#f472b6",
                       "dynamicPropertyPathList": [
                         {
                           "key": "isVisible"
