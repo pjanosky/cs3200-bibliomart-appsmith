@@ -45,10 +45,10 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "datasourceUrl"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,

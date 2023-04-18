@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_listingID",
+    "name": "Users_",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/listings?isbn={{appsmith.URL.queryParams.isbn}}"
+        "url": "web:4000/a/Users"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Listing Details",
+    "pageId": "Reviews",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,24 +36,18 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "datasourceUrl"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "appsmith.URL.queryParams.isbn"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Listing Details_get_listingID",
+  "id": "Reviews_Users_",
   "deleted": false,
-  "gitSyncId": "643c9022571c2941d67b7c2e_643c9d9d571c2941d67b7c45"
+  "gitSyncId": "643b229fcb4bb915f72d0fb1_643e0dbbec69a85cb24e6e8f"
 }

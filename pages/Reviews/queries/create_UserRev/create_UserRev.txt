@@ -1,0 +1,4 @@
+{
+  "Comment": {{add_review_comment.inputText}},
+  "Rating": {{add_review_rating.value}}
+}
