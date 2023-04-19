@@ -1,11 +1,33 @@
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+# Bibliomart Digital Marketplace App
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+This app was created using Appsmith, a low-code platform for building internal tools and applications. This app was created as a larger full-stack project. Please see [this repository](https://github.com/pjanosky/cs3200-bibliomart-files) for more detail
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+# Overview
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
+Our Appsmith app is a simple dashboard that allows users to search for, buy, and sell textbooks. It also allows administrators to access and manage user reviews as well as textbook listings. The dashboard has the following pages and features.
 
-##### You can visit the application using the below link
+## Textbook Search
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/642d92c543d05a130ba4740b/pages/642d92c543d05a130ba4740e) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/642d92c543d05a130ba4740b/pages/642d92c543d05a130ba4740e/edit)
+Textbook search functionality by title, author, or ISBN
+Listing details
+Ability to see details associated with a listing
+Options to buy textbooks
+Reviews
+Ability to view, create, edit, and delete reviews for a given user
+Add listings
+Ability to create edit and delete listings for a given textbook ISBN
+
+## Getting Started
+
+To get started with this app, follow these steps:
+Clone the repository to your local machine.
+Open the Appsmith editor and import the app.
+Update the database connection settings to point to your own database.
+
+# Contributors
+
+- Kerliyah Andrews (@kernadrews)
+- Peter Janosky (@pjanosky)
+- Sophia Watanabe (@WravenWatanabe)
+
+For more information about this project, please reach out to the contributors.
